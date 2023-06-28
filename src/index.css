@@ -1,0 +1,18 @@
+@font-face {
+    font-family: SF Pro Display;
+    src: url("./assets/fonts/SF-Pro-Display-Regular.otf"),
+    url("./assets/fonts/SF-Pro-Display-Medium.otf"),
+    url("./assets/fonts/SF-Pro-Display-Semibold.otf"),
+    url("./assets/fonts/SF-Pro-Display-Bold.otf"),
+    url("./assets/fonts/SF-Pro-Display-Black.otf"),
+    url("./assets/fonts/SF-Pro-Display-Heavy.otf"),
+    url("./assets/fonts/SF-Pro-Display-Light.otf"),
+    url("./assets/fonts/SF-Pro-Display-Thin.otf"),
+    url("./assets/fonts/SF-Pro-Display-Ultralight.otf"),
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    font-family: SF Pro Display;
+}
